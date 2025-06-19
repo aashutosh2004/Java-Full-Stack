@@ -14,12 +14,13 @@ public class hashSetUniqueWords {
         System.out.println("Total no. of words: "+words.length);
         System.out.println("Total no. of Unique words: "+uniqueSet.size());
         System.out.println();
+        System.out.print("Unique Words: ");
         for(String s : uniqueSet){
             System.out.print(s+" ");
         }
-        
+
         System.out.println();
-        System.out.print("Unique Words: ");
+        System.out.print("Duplicate Words: ");
         for(String s : dup){
             System.out.print(s+" ");
         }
